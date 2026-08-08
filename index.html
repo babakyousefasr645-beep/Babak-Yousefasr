@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>بابک یوسف‌عصر | Babak Yousefasr</title>
-
-<meta name="description"
-content="بابک یوسف‌عصر، مدرس یوگا و مدیتیشن، مدرس سودارشان کریا، شاعر و مهندس نرم‌افزار | Babak Yousefasr, Yoga and Meditation Teacher, Sudarshan Kriya Teacher, Poet and Software Engineer">
 
 <style>
 
@@ -15,197 +13,241 @@ content="بابک یوسف‌عصر، مدرس یوگا و مدیتیشن، مد
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     margin: 0;
-    background: #f3f0e8;
-    color: #243b32;
     font-family: Tahoma, Arial, sans-serif;
-    line-height: 2;
-}
-
-.hero {
-    background: linear-gradient(135deg, #103d2d, #28634b);
-    color: white;
-    text-align: center;
-    padding: 65px 20px;
-}
-
-.hero h1 {
-    margin: 0;
-    font-size: 46px;
-}
-
-.hero .name-en {
-    direction: ltr;
-    font-family: Georgia, serif;
-    font-size: 32px;
-    margin-top: 5px;
-    color: #e2c46b;
-}
-
-.hero .title-fa {
-    margin-top: 22px;
-    font-size: 21px;
-    font-weight: bold;
-}
-
-.hero .title-en {
-    direction: ltr;
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    margin-top: 5px;
-}
-
-.hero .intro-fa {
-    max-width: 850px;
-    margin: 25px auto 0;
-    font-size: 17px;
-}
-
-.hero .intro-en {
-    max-width: 850px;
-    margin: 8px auto 0;
-    direction: ltr;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+    background: #f6f4ee;
+    color: #173b2f;
+    line-height: 1.9;
 }
 
 .container {
-    max-width: 1050px;
+    max-width: 1000px;
     margin: auto;
     padding: 25px 18px 60px;
 }
 
+/* HERO */
+
+.hero {
+    text-align: center;
+    padding: 45px 20px 35px;
+    background: linear-gradient(135deg, #eef5ec, #fffdf8);
+    border-bottom: 4px solid #176b4b;
+}
+
+.profile-image {
+    margin: 0 auto 25px;
+}
+
+.profile-image img {
+    display: block;
+    width: min(330px, 85vw);
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 44px;
+    color: #075c3a;
+    font-weight: 900;
+}
+
+.hero .english-name {
+    direction: ltr;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 5px;
+    color: #075c3a;
+    font-weight: 900;
+}
+
+.hero .title-fa {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #124633;
+}
+
+.hero .title-en {
+    direction: ltr;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 19px;
+    margin-top: 8px;
+    color: #075c3a;
+    font-weight: 800;
+}
+
+/* CONTACT */
+
+.contact {
+    margin-top: 25px;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+}
+
+.contact p {
+    margin: 8px 0;
+}
+
+/* ENGLISH */
+
+.en {
+    direction: ltr;
+    text-align: left;
+    color: #075c3a;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+}
+
+/* SECTIONS */
+
 .section {
     background: white;
-    margin: 25px 0;
-    padding: 35px;
-    border-radius: 18px;
-    box-shadow: 0 5px 25px rgba(0,0,0,.07);
+    margin-top: 25px;
+    padding: 28px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
 }
 
 h2 {
+    color: #075c3a;
+    font-size: 28px;
     margin-top: 0;
-    color: #15523b;
-    font-size: 29px;
-    border-bottom: 2px solid #c8a64d;
+    border-bottom: 2px solid #176b4b;
     padding-bottom: 8px;
+}
+
+h3 {
+    color: #075c3a;
+    font-size: 21px;
+    margin-bottom: 5px;
 }
 
 .en-heading {
     direction: ltr;
     text-align: left;
+    color: #075c3a;
     font-family: Arial, sans-serif;
-    color: #60736b;
     font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-h3 {
-    color: #86651e;
-    margin-bottom: 4px;
-}
-
-.en {
-    direction: ltr;
-    text-align: left;
-    font-family: Arial, sans-serif;
-    color: #52655d;
+    font-weight: 900;
+    margin-top: 0;
 }
 
 .item {
-    margin-bottom: 28px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #e6e0d2;
+    margin: 22px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e7e1d2;
 }
 
 .item:last-child {
     border-bottom: none;
 }
 
+/* LISTS */
+
 ul {
     padding-right: 25px;
 }
 
-.en-list {
+.english-list {
     direction: ltr;
     text-align: left;
     padding-left: 25px;
     padding-right: 0;
     font-family: Arial, sans-serif;
-    color: #52655d;
+    color: #075c3a;
+    font-weight: 600;
 }
 
-.contact-box {
-    text-align: center;
-}
+/* LINKS */
 
-.contact-row {
-    margin: 14px 0;
-}
-
-.button {
-    display: inline-block;
-    background: #176344;
-    color: white;
-    padding: 10px 20px;
-    margin: 6px;
-    border-radius: 30px;
+a {
+    color: #075c3a;
     text-decoration: none;
+    font-weight: bold;
 }
 
-.button:hover {
-    background: #c19d3e;
-    color: #173b2e;
+a:hover {
+    text-decoration: underline;
 }
+
+/* QUOTE */
 
 .quote {
-    text-align: center;
-    font-size: 21px;
+    margin: 25px 0;
+    padding: 20px;
+    background: #edf5ed;
+    border-right: 5px solid #176b4b;
+    border-radius: 10px;
+    font-size: 20px;
     font-weight: bold;
-    background: #edf4ed;
-    padding: 25px;
-    border-radius: 12px;
-    border-right: 5px solid #c8a64d;
 }
 
 .quote-en {
     direction: ltr;
+    text-align: left;
+    color: #075c3a;
     font-family: Georgia, serif;
-    color: #52655d;
-    margin-top: 10px;
+    margin-top: 12px;
+    font-weight: bold;
 }
 
-footer {
-    background: #103d2d;
+/* BUTTONS */
+
+.button {
+    display: inline-block;
+    margin: 8px;
+    padding: 10px 18px;
+    background: #176b4b;
     color: white;
+    border-radius: 25px;
+}
+
+.button:hover {
+    background: #0f4e37;
+    text-decoration: none;
+}
+
+/* FOOTER */
+
+.footer {
     text-align: center;
-    padding: 35px 20px;
+    padding: 35px 10px;
+    color: #075c3a;
+    font-weight: 600;
 }
 
 .footer-en {
     direction: ltr;
     font-family: Arial, sans-serif;
-    margin-top: 8px;
+    font-weight: 700;
 }
 
-@media(max-width:700px) {
+/* MOBILE */
+
+@media (max-width: 600px) {
 
     .hero {
-        padding: 45px 15px;
+        padding: 30px 15px 25px;
+    }
+
+    .profile-image img {
+        width: min(280px, 88vw);
     }
 
     .hero h1 {
-        font-size: 34px;
+        font-size: 32px;
     }
 
-    .hero .name-en {
-        font-size: 25px;
+    .hero .english-name {
+        font-size: 31px;
     }
 
     .hero .title-fa {
@@ -213,17 +255,20 @@ footer {
     }
 
     .hero .title-en {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .section {
-        padding: 24px 18px;
+        padding: 20px 16px;
     }
 
     h2 {
-        font-size: 24px;
+        font-size: 23px;
     }
 
+    body {
+        font-size: 15px;
+    }
 }
 
 </style>
@@ -233,18 +278,24 @@ footer {
 <body>
 
 
-<!-- =========================
-     HEADER
-========================= -->
+<!-- HEADER -->
 
-<header class="hero">
+<div class="hero">
 
-    <h1>بابک یوسف‌عصر</h1>
-
-    <div class="name-en">
-        Babak Yousefasr
+    <div class="profile-image">
+        <img
+            src="Babak.Yousefasr.png"
+            alt="بابک یوسف‌عصر | Babak Yousefasr"
+        >
     </div>
 
+    <h1>
+        بابک یوسف‌عصر
+    </h1>
+
+    <div class="english-name">
+        Babak Yousefasr
+    </div>
 
     <div class="title-fa">
         مدرس حرفه‌ای یوگا و مدیتیشن | مدرس بین‌المللی سودارشان کریا | شاعر | مهندس نرم‌افزار
@@ -255,76 +306,112 @@ footer {
     </div>
 
 
-    <div class="intro-fa">
-        مدرس دوزبانه فارسی–انگلیسی با بیش از ۱۸ سال تجربه در یوگا، مدیتیشن، تکنیک‌های تنفسی و توسعه فردی.
+    <!-- CONTACT -->
+
+    <div class="contact">
+
+        <p>
+            تاریخ تولد: اردیبهشت ۱۳۵۶
+        </p>
+
+        <p class="en">
+            Date of Birth: May 1977
+        </p>
+
+
+        <p>
+            موبایل:
+            00989153396328
+        </p>
+
+        <p class="en">
+            Mobile:
+            +98 915 339 6328
+        </p>
+
+
+        <p>
+            موبایل:
+            00989114296536
+        </p>
+
+        <p class="en">
+            Mobile:
+            +98 911 429 6536
+        </p>
+
+
+        <p>
+            واتساپ و تلگرام:
+            00989114296536 |
+            00989153396328
+        </p>
+
+        <p class="en">
+            WhatsApp & Telegram:
+            +98 911 429 6536 |
+            +98 915 339 6328
+        </p>
+
+
+        <p>
+            ایمیل:
+            <a href="mailto:babakyousefasr645@gmail.com">
+                babakyousefasr645@gmail.com
+            </a>
+        </p>
+
+        <p class="en">
+            Email:
+            <a href="mailto:babakyousefasr645@gmail.com">
+                babakyousefasr645@gmail.com
+            </a>
+        </p>
+
+
+        <p>
+            اینستاگرام:
+            <a
+                href="https://www.instagram.com/babak_yoosefasr"
+                target="_blank"
+                rel="noopener"
+            >
+                @babak_yoosefasr
+            </a>
+        </p>
+
+        <p class="en">
+            Instagram:
+            <a
+                href="https://www.instagram.com/babak_yoosefasr"
+                target="_blank"
+                rel="noopener"
+            >
+                @babak_yoosefasr
+            </a>
+        </p>
+
     </div>
 
-    <div class="intro-en">
-        A bilingual Persian–English teacher with more than 18 years of experience in Yoga, Meditation, breathwork and personal development.
-    </div>
+</div>
 
-</header>
 
 
 <div class="container">
 
 
-<!-- =========================
-     PERSONAL INFORMATION
-========================= -->
+<!-- PROFESSIONAL PROFILE -->
 
 <section class="section">
 
-<h2>مشخصات شخصی</h2>
-<div class="en-heading">Personal Information</div>
+<h2>
+معرفی حرفه‌ای
+</h2>
 
-<div class="item">
-
-<p>
-نام: بابک یوسف‌عصر
-</p>
-
-<p class="en">
-Name: Babak Yousefasr
-</p>
-
-<p>
-تاریخ تولد: اردیبهشت ۱۳۵۶
-</p>
-
-<p class="en">
-Date of Birth: May 1977
-</p>
-
-<p>
-زبان‌های آموزشی: فارسی و انگلیسی
-</p>
-
-<p class="en">
-Teaching Languages: Persian and English
-</p>
-
-<p>
-وگان از سال ۱۳۸۶
-</p>
-
-<p class="en">
-Vegan since 2007
-</p>
-
+<div class="en-heading">
+Professional Profile
 </div>
 
-</section>
-
-
-<!-- =========================
-     PROFESSIONAL PROFILE
-========================= -->
-
-<section class="section">
-
-<h2>معرفی حرفه‌ای</h2>
-<div class="en-heading">Professional Profile</div>
 
 <div class="item">
 
@@ -333,39 +420,43 @@ Vegan since 2007
 </p>
 
 <p class="en">
-A bilingual Persian–English Yoga and Meditation teacher with more than 18 years of continuous experience in practice, teaching and research in Yoga, Meditation, breathing techniques and holistic wellness.
+A bilingual (Persian–English) Yoga and Meditation teacher with more than 18 years of continuous experience in practice, teaching, and research in Yoga, Meditation, breathing techniques, and holistic wellness.
 </p>
+
 
 <p>
 آموزش‌دیده در هند و نپال تحت نظر اساتید و مراکز معتبر بین‌المللی.
 </p>
 
 <p class="en">
-Trained in India and Nepal under the guidance of experienced teachers and internationally recognized institutions.
+Trained in India and Nepal under the guidance of internationally recognized teachers and institutions.
 </p>
 
+
 <p>
-دارای رویکردی تلفیقی که آموزه‌های سنتی شرق شامل آشتانگا یوگا، هاتا یوگا، مدیتیشن، مانترا، تکنیک‌های تنفسی و آیین‌های تبتی را با مطالعات نوین در زمینه روان‌شناسی، توسعه فردی، فنگ‌شویی، رنگ‌درمانی و مطالعات متافیزیکی پیوند می‌دهد.
+دارای رویکردی تلفیقی که آموزه‌های سنتی شرق شامل آشتانگا یوگا، هاتا یوگا، مدیتیشن، مانترا، تکنیک‌های تنفسی و آیین‌های تبتی را با مطالعات نوین در زمینه روان‌شناسی، توسعه فردی، فنگ شویی، رنگ‌درمانی و مطالعات متافیزیکی پیوند می‌دهد.
 </p>
 
 <p class="en">
-His integrative approach combines traditional Eastern teachings, including Ashtanga Yoga, Hatha Yoga, Meditation, Mantra, breathing techniques and Tibetan practices, with modern studies in psychology, personal development, Feng Shui, color therapy and metaphysical studies.
+His approach integrates traditional Eastern teachings, including Ashtanga Yoga, Hatha Yoga, Meditation, Mantra, breathing techniques, and Tibetan practices, with modern studies in psychology, personal development, Feng Shui, color therapy, and metaphysical studies.
 </p>
+
 
 <p>
 پیشینه تحصیلی در مهندسی نرم‌افزار موجب شکل‌گیری رویکردی تحلیلی، منظم و کاربردی در آموزش و مربیگری شده است.
 </p>
 
 <p class="en">
-His academic background in Software Engineering has shaped an analytical, structured and practical approach to teaching and coaching.
+His academic background in Software Engineering has contributed to an analytical, structured, and practical approach to teaching and coaching.
 </p>
 
+
 <p>
-وگان از سال ۱۳۸۶ و نویسنده یک مجموعه شعر دوزبانه منتشرشده.
+وگان از سال ۱۳۸۶ و نویسنده یک مجموعه شعر دو زبانه منتشرشده.
 </p>
 
 <p class="en">
-Vegan since 2007 and author of a published bilingual poetry collection.
+Vegan since 2007 and the author of a published bilingual poetry collection.
 </p>
 
 </div>
@@ -373,21 +464,27 @@ Vegan since 2007 and author of a published bilingual poetry collection.
 </section>
 
 
-<!-- =========================
-     CERTIFICATIONS
-========================= -->
+
+<!-- CERTIFICATIONS -->
 
 <section class="section">
 
-<h2>گواهینامه‌ها و آموزش‌های تخصصی</h2>
-<div class="en-heading">Certifications & Specialized Training</div>
+<h2>
+گواهینامه‌ها و آموزش‌های تخصصی
+</h2>
+
+<div class="en-heading">
+Certifications & Specialized Training
+</div>
 
 
 <div class="item">
 
-<h3>۱۴۰۳</h3>
+<h3>
+۱۴۰۳
+</h3>
 
-<p class="en">
+<p class="en-heading">
 2024
 </p>
 
@@ -396,7 +493,7 @@ Vegan since 2007 and author of a published bilingual poetry collection.
 </p>
 
 <p class="en">
-200-hour Yoga Teacher Training Certificate in Ashtanga Yoga, Hatha Yoga and Meditation.
+200-hour certification in Ashtanga Yoga, Hatha Yoga, and Meditation Teacher Training
 </p>
 
 <p>
@@ -412,9 +509,11 @@ Nepal Yoga Home — Kathmandu, Nepal
 
 <div class="item">
 
-<h3>۱۳۹۲</h3>
+<h3>
+۱۳۹۲
+</h3>
 
-<p class="en">
+<p class="en-heading">
 2013
 </p>
 
@@ -423,7 +522,7 @@ Nepal Yoga Home — Kathmandu, Nepal
 </p>
 
 <p class="en">
-Sudarshan Kriya Teacher Training Program.
+Sudarshan Kriya Teacher Training Course
 </p>
 
 <p>
@@ -439,9 +538,11 @@ Art of Living International Ashram — Bangalore, India
 
 <div class="item">
 
-<h3>۱۳۹۱</h3>
+<h3>
+۱۳۹۱
+</h3>
 
-<p class="en">
+<p class="en-heading">
 2012
 </p>
 
@@ -450,7 +551,7 @@ Art of Living International Ashram — Bangalore, India
 </p>
 
 <p class="en">
-Sahaj Samadhi Meditation and Advanced Breathing Programs.
+Sahaj Samadhi Meditation and Advanced Breathing Courses
 </p>
 
 <p>
@@ -471,7 +572,7 @@ Art of Living International Ashram — Bangalore, India
 </p>
 
 <p class="en">
-Sri Sri Yoga Teacher Training Program.
+Sri Sri Yoga Teacher Training Course
 </p>
 
 <p>
@@ -487,9 +588,11 @@ Art of Living International Ashram — Bangalore, India
 
 <div class="item">
 
-<h3>۱۳۸۸</h3>
+<h3>
+۱۳۸۸
+</h3>
 
-<p class="en">
+<p class="en-heading">
 2009
 </p>
 
@@ -498,21 +601,49 @@ Art of Living International Ashram — Bangalore, India
 </p>
 
 <p class="en">
-Reiki Master Training Courses.
+Reiki Master Training Courses
 </p>
 
+
 <ul>
-<li>ری‌کی اوسویی</li>
-<li>چتن ری‌کی</li>
-<li>کارونا ری‌کی</li>
-<li>ری‌کی مصری</li>
+
+<li>
+ری‌کی اوسویی
+</li>
+
+<li>
+چتن ری‌کی
+</li>
+
+<li>
+کارونا ری‌کی
+</li>
+
+<li>
+ری‌کی مصری
+</li>
+
 </ul>
 
-<ul class="en-list">
-<li>Usui Reiki</li>
-<li>Chetan Reiki</li>
-<li>Karuna Reiki</li>
-<li>Egyptian Reiki</li>
+
+<ul class="english-list">
+
+<li>
+Usui Reiki
+</li>
+
+<li>
+Chetan Reiki
+</li>
+
+<li>
+Karuna Reiki
+</li>
+
+<li>
+Egyptian Reiki
+</li>
+
 </ul>
 
 </div>
@@ -520,22 +651,46 @@ Reiki Master Training Courses.
 
 <div class="item">
 
-<h3>آموزش‌های تکمیلی</h3>
+<h3>
+آموزش‌های تکمیلی
+</h3>
 
-<p class="en">
+<p class="en-heading">
 Additional Training
 </p>
 
+
 <ul>
-<li>مدیتیشن متعالی (Yes+)</li>
-<li>پوجای تبتی و مراقبه مبتنی بر صوت</li>
-<li>مطالعات پیشرفته در مدیتیشن، تنفس و توسعه معنوی</li>
+
+<li>
+مدیتیشن متعالی (Yes+)
+</li>
+
+<li>
+پوجای تبتی و مراقبه مبتنی بر صوت
+</li>
+
+<li>
+مطالعات پیشرفته در مدیتیشن، تنفس و توسعه معنوی
+</li>
+
 </ul>
 
-<ul class="en-list">
-<li>Transcendental Meditation (Yes+)</li>
-<li>Tibetan Puja and sound-based meditation practices</li>
-<li>Advanced studies in meditation, breathing and spiritual development</li>
+
+<ul class="english-list">
+
+<li>
+Transcendental Meditation (Yes+)
+</li>
+
+<li>
+Tibetan Puja and sound-based meditation practices
+</li>
+
+<li>
+Advanced studies in Meditation, breathing, and spiritual development
+</li>
+
 </ul>
 
 </div>
@@ -543,14 +698,16 @@ Additional Training
 
 <div class="item">
 
-<h3>سوابق قانونی</h3>
+<h3>
+سوابق قانونی
+</h3>
 
-<p class="en">
+<p class="en-heading">
 Legal Record
 </p>
 
 <p>
-دارای گواهی عدم سوءپیشینه کیفری صادره از قوه قضائیه جمهوری اسلامی ایران.
+دارای گواهی عدم سوءپیشینه کیفری صادره از قوه قضائیه جمهوری اسلامی ایران
 </p>
 
 <p class="en">
@@ -562,14 +719,19 @@ Holder of an official criminal background clearance certificate issued by the Ju
 </section>
 
 
-<!-- =========================
-     EDUCATION
-========================= -->
+
+<!-- EDUCATION -->
 
 <section class="section">
 
-<h2>تحصیلات</h2>
-<div class="en-heading">Education</div>
+<h2>
+تحصیلات
+</h2>
+
+<div class="en-heading">
+Education
+</div>
+
 
 <div class="item">
 
@@ -581,6 +743,7 @@ Holder of an official criminal background clearance certificate issued by the Ju
 Computer Engineering – Software Engineering
 </p>
 
+
 <p>
 مدرک کاردانی / کارشناسی
 </p>
@@ -588,6 +751,7 @@ Computer Engineering – Software Engineering
 <p class="en">
 Associate Degree / Bachelor's Degree
 </p>
+
 
 <p>
 سال اخذ مدرک: ۱۳۸۱
@@ -602,38 +766,48 @@ Year of Graduation: 2002
 </section>
 
 
-<!-- =========================
-     PUBLISHED WORK
-========================= -->
+
+<!-- PUBLISHED WORK -->
 
 <section class="section">
 
-<h2>آثار منتشرشده</h2>
-<div class="en-heading">Published Work</div>
+<h2>
+آثار منتشرشده
+</h2>
+
+<div class="en-heading">
+Published Work
+</div>
+
 
 <div class="item">
 
-<h3>نیایش عاشق به معشوق</h3>
+<h3>
+نیایش عاشق به معشوق
+</h3>
 
-<p class="en">
+<p class="en-heading">
 A Lover's Prayer to the Beloved
 </p>
 
+
 <p>
-مجموعه شعر دوزبانه (فارسی – انگلیسی)
+مجموعه شعر دو زبانه (فارسی – انگلیسی)
 </p>
 
 <p class="en">
-Bilingual Persian–English Poetry Collection
+Bilingual poetry collection (Persian – English)
 </p>
+
 
 <p>
 انتشارات اتاق آبی، تهران
 </p>
 
 <p class="en">
-Blue Room Publishing House, Tehran
+Blue Room Publishing, Tehran
 </p>
+
 
 <p>
 سال انتشار: ۱۴۰۰
@@ -648,25 +822,33 @@ Publication Year: 2021
 </section>
 
 
-<!-- =========================
-     AREAS OF EXPERTISE
-========================= -->
+
+<!-- EXPERTISE -->
 
 <section class="section">
 
-<h2>حوزه‌های تخصصی</h2>
-<div class="en-heading">Areas of Expertise</div>
+<h2>
+حوزه‌های تخصصی
+</h2>
+
+<div class="en-heading">
+Areas of Expertise
+</div>
 
 
 <div class="item">
 
-<h3>یوگا و مدیتیشن</h3>
+<h3>
+یوگا و مدیتیشن
+</h3>
 
-<p class="en">
+<p class="en-heading">
 Yoga & Meditation
 </p>
 
+
 <ul>
+
 <li>آشتانگا یوگا</li>
 <li>هاتا یوگا</li>
 <li>آموزش مدیتیشن</li>
@@ -676,18 +858,22 @@ Yoga & Meditation
 <li>مانترا مدیتیشن</li>
 <li>صدا درمانی</li>
 <li>آیین‌ها و مراقبه‌های تبتی</li>
+
 </ul>
 
-<ul class="en-list">
+
+<ul class="english-list">
+
 <li>Ashtanga Yoga</li>
 <li>Hatha Yoga</li>
-<li>Meditation Instruction</li>
+<li>Meditation instruction</li>
 <li>Sudarshan Kriya</li>
 <li>Sahaj Samadhi Meditation</li>
-<li>Breathing Techniques</li>
+<li>Breathing techniques</li>
 <li>Mantra Meditation</li>
 <li>Sound Healing</li>
-<li>Tibetan Practices and Meditation</li>
+<li>Tibetan rituals and meditation practices</li>
+
 </ul>
 
 </div>
@@ -695,34 +881,42 @@ Yoga & Meditation
 
 <div class="item">
 
-<h3>سلامت جامع و توسعه فردی</h3>
+<h3>
+سلامت جامع و توسعه فردی
+</h3>
 
-<p class="en">
+<p class="en-heading">
 Holistic Wellness & Personal Development
 </p>
 
+
 <ul>
+
 <li>آگاهی و کار با انرژی</li>
-<li>فنگ‌شویی</li>
-<li>رنگ‌درمانی</li>
-<li>نوشتاردرمانی</li>
+<li>فنگ شویی</li>
+<li>رنگ درمانی</li>
+<li>نوشتار درمانی</li>
 <li>توسعه فردی</li>
 <li>روان‌شناسی و شناخت رفتار انسان</li>
 <li>شخصیت‌شناسی</li>
 <li>طب سنتی ایرانی (مکتب ابن‌سینا)</li>
 <li>مطالعات متافیزیک</li>
+
 </ul>
 
-<ul class="en-list">
-<li>Awareness and Energy Work</li>
+
+<ul class="english-list">
+
+<li>Awareness and energy work</li>
 <li>Feng Shui</li>
 <li>Color Therapy</li>
 <li>Writing Therapy</li>
 <li>Personal Development</li>
-<li>Psychology and Human Behavior</li>
-<li>Personality Studies</li>
-<li>Traditional Iranian Medicine (Avicenna School)</li>
-<li>Metaphysical Studies</li>
+<li>Psychology and understanding human behavior</li>
+<li>Personality studies</li>
+<li>Traditional Iranian Medicine (Avicenna's school)</li>
+<li>Metaphysical studies</li>
+
 </ul>
 
 </div>
@@ -730,16 +924,22 @@ Holistic Wellness & Personal Development
 </section>
 
 
-<!-- =========================
-     PROFESSIONAL SKILLS
-========================= -->
+
+<!-- SKILLS -->
 
 <section class="section">
 
-<h2>مهارت‌های حرفه‌ای</h2>
-<div class="en-heading">Professional Skills</div>
+<h2>
+مهارت‌های حرفه‌ای
+</h2>
+
+<div class="en-heading">
+Professional Skills
+</div>
+
 
 <ul>
+
 <li>تدریس دوزبانه فارسی و انگلیسی</li>
 <li>آموزش فردی و گروهی</li>
 <li>طراحی دوره‌های یوگا و مدیتیشن</li>
@@ -748,210 +948,230 @@ Holistic Wellness & Personal Development
 <li>سخنرانی و آموزش عمومی</li>
 <li>طراحی محتوای آموزشی</li>
 <li>رویکرد تحلیلی و سیستماتیک در آموزش</li>
+
 </ul>
 
-<ul class="en-list">
-<li>Bilingual Persian and English Teaching</li>
-<li>Individual and Group Instruction</li>
-<li>Yoga and Meditation Course Design</li>
-<li>Workshops and Educational Programs</li>
-<li>Mentoring and Spiritual Guidance</li>
-<li>Public Speaking and Education</li>
-<li>Educational Content Development</li>
-<li>Analytical and Systematic Teaching Approach</li>
+
+<ul class="english-list">
+
+<li>Bilingual Persian and English teaching</li>
+<li>Individual and group instruction</li>
+<li>Yoga and Meditation course design</li>
+<li>Workshops and educational programs</li>
+<li>Mentoring and spiritual guidance</li>
+<li>Public speaking and education</li>
+<li>Educational content creation</li>
+<li>Analytical and systematic approach to teaching</li>
+
 </ul>
 
 </section>
 
 
-<!-- =========================
-     VALUES
-========================= -->
+
+<!-- VALUES -->
 
 <section class="section">
 
-<h2>ارزش‌ها و سبک زندگی</h2>
-<div class="en-heading">Values & Lifestyle</div>
+<h2>
+ارزش‌ها و سبک زندگی
+</h2>
+
+<div class="en-heading">
+Values & Lifestyle
+</div>
+
 
 <ul>
+
 <li>وگان از سال ۱۳۸۶</li>
 <li>تمرین روزانه مدیتیشن</li>
 <li>سبک زندگی طبیعت‌محور</li>
-<li>پایبندی به آگاهی، صلح و عدم خشونت</li>
-<li>تمرکز بر رشد درونی و توسعه فردی</li>
+<li>پایبندی به آگاهی، صلح، عدم خشونت و رشد درونی</li>
 <li>تعهد به ارتقای سلامت ذهنی، عاطفی و معنوی انسان‌ها</li>
+
 </ul>
 
-<ul class="en-list">
+
+<ul class="english-list">
+
 <li>Vegan since 2007</li>
-<li>Daily Meditation Practice</li>
-<li>Nature-Oriented Lifestyle</li>
-<li>Commitment to Awareness, Peace and Non-Violence</li>
-<li>Focus on Inner Growth and Personal Development</li>
-<li>Commitment to supporting human mental, emotional and spiritual well-being</li>
+<li>Daily meditation practice</li>
+<li>Nature-oriented lifestyle</li>
+<li>Commitment to awareness, peace, non-violence, and inner growth</li>
+<li>Commitment to improving people's mental, emotional, and spiritual well-being</li>
+
 </ul>
 
 </section>
 
 
-<!-- =========================
-     CONTACT
-========================= -->
 
-<section class="section contact-box">
+<!-- QUOTE -->
 
-<h2>ارتباط با بابک یوسف‌عصر</h2>
+<section class="section">
+
+<div class="quote">
+
+<div>
+تو همان آگاهی هستی
+<br>
+که همیشه دنیاش بوده‌ای
+</div>
+
+
+<div class="quote-en">
+
+You are the very awareness
+<br>
+that has always been your world.
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- CONTACT -->
+
+<section class="section">
+
+<h2>
+ارتباط با بابک یوسف‌عصر
+</h2>
 
 <div class="en-heading">
 Contact Babak Yousefasr
 </div>
 
 
-<div class="contact-row">
-
 <p>
-موبایل: 00989153396328
+برای ارتباط، همکاری، برگزاری دوره‌ها و کارگاه‌های یوگا و مدیتیشن می‌توانید از راه‌های زیر با من در تماس باشید.
 </p>
 
 <p class="en">
-Mobile: +98 915 339 6328
+For communication, collaboration, Yoga and Meditation courses, and workshops, you can contact me through the following channels.
 </p>
 
-</div>
-
-
-<div class="contact-row">
 
 <p>
-موبایل: 00989114296536
+📱 موبایل:
+<a href="tel:+989153396328">
+00989153396328
+</a>
 </p>
 
 <p class="en">
-Mobile: +98 911 429 6536
+📱 Mobile:
+<a href="tel:+989153396328">
++98 915 339 6328
+</a>
 </p>
 
-</div>
-
-
-<div class="contact-row">
 
 <p>
-واتساپ و تلگرام:
+📱 موبایل:
+<a href="tel:+989114296536">
 00989114296536
-و
+</a>
+</p>
+
+<p class="en">
+📱 Mobile:
+<a href="tel:+989114296536">
++98 911 429 6536
+</a>
+</p>
+
+
+<p>
+💬 واتساپ و تلگرام:
+00989114296536 |
 00989153396328
 </p>
 
 <p class="en">
-WhatsApp & Telegram:
-+98 911 429 6536
-and
+💬 WhatsApp & Telegram:
++98 911 429 6536 |
 +98 915 339 6328
 </p>
 
-</div>
-
-
-<div class="contact-row">
 
 <p>
-ایمیل:
+📧 ایمیل:
 <a href="mailto:babakyousefasr645@gmail.com">
 babakyousefasr645@gmail.com
 </a>
 </p>
 
 <p class="en">
-Email:
+📧 Email:
 <a href="mailto:babakyousefasr645@gmail.com">
 babakyousefasr645@gmail.com
 </a>
 </p>
 
-</div>
-
-
-<div class="contact-row">
 
 <p>
-اینستاگرام:
-<a href="https://www.instagram.com/babak_yoosefasr"
-target="_blank">
+📷 اینستاگرام:
+<a
+href="https://www.instagram.com/babak_yoosefasr"
+target="_blank"
+rel="noopener">
 @babak_yoosefasr
 </a>
 </p>
 
 <p class="en">
-Instagram:
-<a href="https://www.instagram.com/babak_yoosefasr"
-target="_blank">
+📷 Instagram:
+<a
+href="https://www.instagram.com/babak_yoosefasr"
+target="_blank"
+rel="noopener">
 @babak_yoosefasr
 </a>
 </p>
 
+
+<div style="text-align:center;margin-top:25px;">
+
+<a
+class="button"
+href="https://www.instagram.com/babak_yoosefasr"
+target="_blank"
+rel="noopener">
+اینستاگرام
+</a>
+
+
+<a
+class="button"
+href="mailto:babakyousefasr645@gmail.com">
+ایمیل
+</a>
+
 </div>
 
+</section>
+
+
+</div>
+
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
 
 <div>
-
-<a class="button"
-href="https://www.instagram.com/babak_yoosefasr"
-target="_blank">
-اینستاگرام | Instagram
-</a>
-
-<a class="button"
-href="mailto:babakyousefasr645@gmail.com">
-ایمیل | Email
-</a>
-
-<a class="button"
-href="tel:+989153396328">
-تماس | Call
-</a>
-
+بابک یوسف‌عصر — یوگا، مدیتیشن، آگاهی و توسعه فردی
 </div>
 
-</section>
-
-
-<!-- =========================
-     CLOSING
-========================= -->
-
-<section class="section">
-
-<div class="quote">
-
-<p>
-مسیر آگاهی، صلح و رشد درونی
-</p>
-
-<p class="quote-en">
-A path of awareness, peace and inner growth.
-</p>
-
+<div class="footer-en">
+Babak Yousefasr — Yoga, Meditation, Awareness & Personal Development
 </div>
-
-</section>
-
-
-</div>
-
-
-<!-- =========================
-     FOOTER
-========================= -->
-
-<footer>
-
-<p>
-بابک یوسف‌عصر | یوگا • مدیتیشن • ذهن‌آگاهی • تنفس • توسعه فردی
-</p>
-
-<p class="footer-en">
-Babak Yousefasr | Yoga • Meditation • Mindfulness • Breathwork • Personal Development
-</p>
 
 <p>
 © تمامی حقوق محفوظ است.
